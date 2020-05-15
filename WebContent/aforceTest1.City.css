@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+header{
+	position: fixed;
+	text-align:center;
+}
+
+main{
+	position:relative;
+}
+
+
+.top{
+	position:absolute;
+	background-color:black;
+	width:100vw;
+	height: 100vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	z-index:2;
+
+}
+
+.introduction{
+	font-family: 'Shadows Into Light', cursive;
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	font-size:50px;
+	border: none;
+}
+
+.top2{
+	position:relative;
+	background-color:black;
+	display:block;
+	text-align:center;
+	width:100vw;
+	height: 100vh;
+	z-index:1;
+}
+
+.box1,.box2,.box3{
+
+	position:relative;
+	display:flex;
+	width:100vw;
+	height:calc(100vh /3);
+	justify-content: center;
+  	align-items: center;
+}
+
+.highschool,.sports,.favorite,.University,.cafe,.favoritek{
+
+	/*位置調整*/
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*以下装飾*/
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	font-size:40px;
+	margin:0;
+
+}
+
+.box1 img,.box2 img,.box3 img{
+	width:100vw;
+	height:calc(100vh /3);
+
+
+}
+
+.home{
+	position:fixed;
+	top:5px;
+	left:5px;
+}

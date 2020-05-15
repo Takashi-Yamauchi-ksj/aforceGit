@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+header{
+	text-align:center;
+}
+
+h1{
+	text-align:center;
+	line-height: 40px;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 20px;
+	height: 100vh;
+  	width: 100vw;
+  	background-color: black;
+}
+
+.text{
+	color:white;
+	width: 50%;
+}
+
+.textbox{
+
+	margin: 15px;
+}
+
+.photo{
+	 box-shadow: 2px 2px 2px gray;
+	width: 50%;
+	border:40px;
+}
+
+.back{
+	position:fixed;
+	top:5px;
+	left:5px;
+}

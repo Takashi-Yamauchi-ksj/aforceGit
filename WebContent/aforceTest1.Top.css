@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+header{
+
+	position: fixed;
+	text-align:center;
+}
+
+.title{
+	font-family: italic;
+}
+
+
+
+main{
+	position:relative;
+}
+
+
+.top{
+	position:absolute;
+	background-color:black;
+	width:100vw;
+	height: 100vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	z-index:2;
+
+}
+
+.introduction{
+	font-family: 'Shadows Into Light', cursive;
+	background-color:rgba(0,0,0,0);
+	color:white;
+	font-size:50px;
+	border: none;
+}
+
+.top2{
+	position:absolute;
+	background-color:black;
+	width:100vw;
+	height: 100vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	z-index:1;
+
+}
+
+
+
+.osaka{
+
+	/*位置調整*/
+	position:absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+  	-webkit-transform: translate(-50%,-50%);
+	/*以下装飾*/
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	font-size:40px;
+	margin:0;
+
+}
+
+.kyoto{
+
+	/*位置調整*/
+	position:absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+  	-webkit-transform: translate(-50%,-50%);
+	/*以下装飾*/
+	background-color:rgba(0,0,0,0);
+	color:white;
+	font-size:40px;
+	margin:0;
+
+}
+
+.top2 img{
+
+	height:100%;
+	width:100%;
+
+}
+
+.home{
+	position:fixed;
+	top:5px;
+	left:5px;
+}
